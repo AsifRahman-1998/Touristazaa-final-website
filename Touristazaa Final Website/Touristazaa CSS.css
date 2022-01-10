@@ -1,0 +1,99 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	animation: hotelchange;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes hotelchange{
+	0%{background-image: url(https://pix3.agoda.net/hotelimages/220/2204980/2204980_17050114070052730981.jpg);}
+	25%{background-image: url(https://cache.marriott.com/marriottassets/marriott/DACMD/dacmd-exterior-evening-3729-hor-feat.jpg);}
+	50%{background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a7/61/59/swimming-pool.jpg?w=900&h=-1&s=1);}
+	75%{background-image: url(https://tripprivacy.com/wp-content/uploads/2020/05/69_image.png);}
+	100%{background-image: url(https://pix3.agoda.net/hotelimages/220/2204980/2204980_17050114070052730981.jpg);}
+}
+
+.logo{
+	margin: 0;
+	padding: 0;
+	height: 500px;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	background-image: url("https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/158134014_185345923394512_1529797981208906747_n.png?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Cq_f_Rs-lUQAX9_3RSO&_nc_ht=scontent.fdac5-1.fna&oh=00_AT-ulGNDSHE7kQlOb9LjFYqjkf52V2pKku6aM5sWgy8gAg&oe=61EF8376");
+	background-size: 400px auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: -4%;
+
+}
+.bar {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  top: -100%;
+}
+
+.bar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .bar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+.main{
+	margin: 0;
+	padding:0;
+	height: 50%;
+	width:100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: flex-end;
+	background: white;
+}
+
+.white-board{
+	height: 400px;
+	width: 400px;
+	background-color: white;
+	margin-left: 20px;
+}
+
+h3{
+	color: grey;
+}
+h4{
+	color: grey;
+}
+
